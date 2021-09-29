@@ -3,7 +3,6 @@
 # read certain cells in file
 # create csv based off this information
 import os
-import pandas as pd
 from openpyxl import load_workbook
 import json
 import csv
