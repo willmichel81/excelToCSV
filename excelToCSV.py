@@ -60,7 +60,10 @@ class excelToCSV():
             filepath = self.filepath
         if self.file_exists == True:
             wb = load_workbook(self.filepath)
-        return wb
+            return wb
+        else{
+            print('Sorry, there seems to be an issue with creating the workbook object')
+        }
     # This is where the magic happens ... for the mostpart
     #create a json object based on data that was read from excel
     def createJSON(self,length = 0,datasetName = "record",datasetDataName = [],data = "",filepath = ""):
