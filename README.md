@@ -25,5 +25,5 @@ The importable name of the package is excelToCSV<br /><br />
  >>> "('C:/complete/path/to/file/', '.txt')"
  </code>
 
-<h2>Short Summery</h2>
+<h2>Short Summary</h2>
 Takes user specified range data (ex. A1:A16) data from sheet(s)(ex. "MAIN") in side of .xlsx and then converts data to json dict and/or csv.
